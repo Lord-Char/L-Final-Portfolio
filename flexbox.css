@@ -1,0 +1,18 @@
+.flex-container {
+    background-color: #333;
+    color: #fdfdfd;
+    display:flex;
+    justify-content: space-between;
+    margin: 5px;
+    flex-wrap: wrap;
+    flex: 100px;
+}
+
+.container1, .container2 {
+    text-align: start;
+}
+
+.container3:hover, .container4:hover  {
+    text-align: end;
+    background-color: blue;    
+}
