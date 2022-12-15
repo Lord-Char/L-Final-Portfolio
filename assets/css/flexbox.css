@@ -16,3 +16,7 @@
     text-align: end;
     background-color: blue;    
 }
+
+.foto__perfil {
+    height: auto;    width: 200px;
+}
