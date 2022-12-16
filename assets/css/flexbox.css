@@ -8,6 +8,10 @@
     flex: 100px;
 }
 
+.container1 {
+    height: auto;
+    width: 5px;
+}
 .container1, .container2 {
     text-align: start;
 }
