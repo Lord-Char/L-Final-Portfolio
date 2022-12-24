@@ -1,3 +1,28 @@
+html:
+ <body>
+        <nav>
+            <section class="box-1">box-1</section>
+            <section class="box-2">box-2</section>
+            <section class="box-3">box-3</section>
+            <section class="box-4">box-4</section>
+            <section class="box-5">box-5</section>
+        </nav>
+        <header class="header">
+            <section id="banner">banner</section>
+            <section id="logo">logo</section>
+            <section id="login">login</section>
+            <section id="form">form</section>
+        </header>
+        <main>
+            <aside id="left">aside left</aside>
+            <article id="article">article</article>
+            <aside id="right">aside right</aside>
+        </main>
+        <footer class="footer">footer</footer>
+    </body>
+</html>
+
+css:
 /*Configuracion gral. de la pagina*/
 * {
     margin: 0;
@@ -73,7 +98,7 @@ section#logo{
     height: 100px;
     float: left;
     background-color:brown;
-    
+    border-style:solid;
 }
 section#login{
     width: 200px;
